@@ -6,6 +6,7 @@ Programas desenvolvidos na disciplina de **Algoritmos e Pensamento Computacional
 |---|---|---|
 | [`01-chatbot-loja`](01-chatbot-loja) | Chatbot de atendimento de uma loja de roupas | Laço `do-while`, `switch`, `if/else`, validação de entradas |
 | [`02-vendas-cinema`](02-vendas-cinema) | Controle de ingressos vendidos por filme no mês | Vetores, matrizes, laços `for`, gráfico de barras no terminal |
+| [`03-tempo-onibus`](03-tempo-onibus) | Ordenação dos tempos de chegada de ônibus em um ponto | Algoritmo Bubble Sort, ordem crescente e decrescente |
 
 ---
 
@@ -34,6 +35,24 @@ Toy Story 5               | ######################################### 410  <- MA
 O Auto da Compadecida 3   | ############### 150
 Avatar 3                  | ########################### 275
 Terror na Casa            | ###### 60  <- MENOS ASSISTIDO
+```
+
+## 03 · Tempo de Chegada dos Ônibus
+
+Ordena os tempos (em minutos) de chegada de 10 ônibus em um ponto usando o método **Bubble Sort**.
+
+- Vetor de 10 posições inicializado com os tempos simulados
+- Exibição dos dados na ordem original
+- Bubble Sort em ordem crescente (ônibus que chega primeiro) e decrescente (o que demora mais)
+- A única mudança entre as duas ordenações é o sinal da comparação (`>` ou `<`)
+
+```
+--- Ordem crescente (o que chega primeiro) ---
+ 1º:  3 minutos
+ 2º:  5 minutos
+ 3º:  6 minutos
+ ...
+10º: 27 minutos
 ```
 
 ---
